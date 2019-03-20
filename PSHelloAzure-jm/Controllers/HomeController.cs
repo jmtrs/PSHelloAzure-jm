@@ -12,7 +12,7 @@ namespace PSHelloAzure_jm.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Hello"] = "JM!";
+            ViewData["Hello"] = "JM";
 
             return View();
         }
